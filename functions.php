@@ -1,5 +1,4 @@
 <?php
-// Function to group movies by genre
 function groupByGenre($movieList) {
     $grouped = [];
     foreach ($movieList as $movie) {
@@ -12,7 +11,6 @@ function groupByGenre($movieList) {
     return $grouped;
 }
 
-// Function to print a list of movies
 function displayMovies($groupedMovies) {
     foreach ($groupedMovies as $genre => $movies) {
         echo "<h2>$genre</h2><ul>";
