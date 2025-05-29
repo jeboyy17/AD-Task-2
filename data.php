@@ -1,5 +1,4 @@
 <?php
-// Array of movie dictionaries
 $movies = [
     [
         "title" => "The Matrix",
